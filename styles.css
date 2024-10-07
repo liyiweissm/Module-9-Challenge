@@ -1,0 +1,139 @@
+/* --- Header --- */
+header {
+    background-color: #59331D;
+    margin: 0;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #F2F2F2;
+    font-size: 25px;
+    transition: color 0.3s;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+/* --- Body --- */
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+.about-section {
+    display: flex;
+    padding: 30px;
+}
+
+.about-text {
+    padding-left: 50px;
+    padding-right: 30px;
+    max-width: 2500px;
+}
+
+.about-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 55px;
+    color: #59331D;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #D98555;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.about-text a {
+    color: #082B59;
+}
+
+.about-contact-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-button {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #F2F2F2;
+    color: #082B59;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #082B59;
+    border-radius: 5px;
+}
+
+.about-image {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.about-image img {
+    width: auto;
+    height: 650px;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #59331D;
+    margin: 0;
+}
+
+footer p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+footer p a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
